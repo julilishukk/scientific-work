@@ -1,0 +1,280 @@
+
+#answer::placeholder{
+    font-size: 40%;
+    text-align: left;
+}
+
+
+#answer{
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	font-size: 2em;
+	text-align: center;
+     top: 83%;
+      left: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.9); 
+    border: 10px solid  #9370DB; 
+    color: #ff0000;
+}
+
+
+
+
+#but{
+	position: absolute;
+     height: 16%;
+     width: 13%;
+     top: 81%;
+        left: 62%;
+     box-sizing: border-box;
+     background: url(for_button.png); 
+     background-size: 20%;
+     border-radius: 20px; 
+     font-size: 1em;
+     color:   #696969;
+     border: 2px solid #FFFFFF;
+}
+#but:hover{
+     background: #9370DB;
+}
+
+.level{
+	width: 6.5%;
+  
+}
+
+
+
+.task{
+	position: absolute;
+height: 70%;
+width: 90%;
+margin: 0 auto;
+display: block;
+top: 9%;
+margin-left: auto;
+margin-right: auto;
+border: 1px dashed	#9370DB;
+}
+
+
+#help{
+	position: absolute;
+	top: 84%;
+	left: 80%;
+	width: 20%;
+	height: 15%;
+	cursor: pointer;
+
+}
+
+
+#true{
+	position: absolute;
+	left: 40%;
+	top: 1.5%;
+  width: 10%;
+  height: 5%;
+
+}
+
+#false{
+	position: absolute;
+	left: 52%;
+	top: 1.5%;
+  width: 10%;
+  height: 5%;
+}
+
+#but1{
+	  cursor: pointer;
+	  position: absolute;
+      margin: 0 auto;
+      display: block;
+      left: 35%;
+      top: 10%;
+      width: 30%;
+      height: 15%;
+      text-align:center; 
+      border:outset 12px #8a1970; 
+      font:44px Arial, Helvetica, sans-serif; 
+      color:#5c0808; 
+      background-color:#d254e3; 
+      background-image: -webkit-linear-gradient(top, #d254e3 0%, #51edd3 100%); 
+}
+
+#but1:hover{
+    background-image: -webkit-linear-gradient(top, #BA55D3 30%, #BC8F8F 90%); 
+}
+#inputFile{
+   position: absolute;
+      margin: 0 auto;
+      left: 2%;
+      top: 90%;
+      z-index: 103;
+      font-size: 1.5em;
+}
+#but_reader{
+     position: absolute;
+      margin: 0 auto;
+      left: 2%;
+      top: 95%;
+      z-index: 103;
+      font-size: 1.5em;
+}
+#salut{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+}
+
+ #help:hover{
+  background-image: url(help1.png);
+}
+
+
+#help{
+  position: absolute;
+  top: 77%;
+  left: 80%;
+  width: 20%;
+  height: 22%;
+  cursor: pointer;
+  background: none;
+  background-image: url(help.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0; border: 0;outline: 0;
+}
+
+.modal {
+  opacity: 0;/*прозорість*/
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  transition: 0.3s ease-in-out;
+}
+
+.modal__box {
+  transition: all 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.5);
+  transform: rotate(5deg) translate(-1em, 1em);
+          transform: rotate(5deg) translate(-1em, 1em);
+}
+
+.btn:focus + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn:focus + .modal .modal__box {
+  transform: rotate(0deg) translate(0, 0);
+          transform: rotate(0deg) translate(0, 0);
+}
+
+
+
+
+
+
+#last_screen{
+  visibility: hidden;
+  z-index: 300;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    color: #008080;
+    background: rgba(174, 226, 239,0.6);
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#last_screen2{
+  position: relative;
+  width: 40%;
+  height: 80%;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+     background-image: url(fon_instruc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform:scale(1);
+    
+    
+}
+#mark{
+  width: 30%;
+  height: 18%;
+  text-align: center;
+}
+
+#restart{
+  position: absolute;
+  width: 35%;
+  height: 17%;
+}
+
+
+
+#timer{
+  width: 80%;
+    height: 40%;
+    font-size: 30px;
+}
+#timer:hover{
+  /*transform:scale(0.1);*/
+}
+#restart{
+  margin-top: 3em;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 60px 60px rgb(212,75,56) inset, 0 0 0 0 rgb(212,75,56);*/
+  font-family: "Monotype";
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  transition: .15s ease-in-out;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+#restart:hover {
+  box-shadow: 0 0 10px 0 rgb(212,75,56) inset, 0 0 10px 4px rgb(212,75,56);
+
+  background-color: rgb(190,70,50);
+}
+
+
+
+
+
+
+
+
+
+
